@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+
+@font-face {
+    font-family: Moonet DEMO;
+    src: url(./Jost.otf);
+}
+.logo{
+    font-family: "jost";
+}
+
+@font-face {
+  font-family: 'jost';
+  src: url('./assets/Jost-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
