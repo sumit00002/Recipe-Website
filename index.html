@@ -6,16 +6,24 @@
     <meta name="description" content="Discover delicious recipes from around the world with RecipeDB. Search, filter, and find your next favorite meal." />
     <meta name="keywords" content="recipes, cooking, food, meals, cuisine, themealdb" />
     <meta name="author" content="RecipeDB" />
+
+    <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="RecipeDB - Discover Delicious Recipes" />
     <meta property="og:description" content="Find your next favorite meal from around the world" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://recipedb.example.com" />
     <meta property="og:image" content="https://recipedb.example.com/og-image.jpg" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Favicon fix: use correct file extension (was .svg+xml) -->
+    <link rel="icon" href="/fav.jpg" type="image/jpeg" />
+
+    <!-- Title -->
     <title>RecipeDB - Discover Delicious Recipes</title>
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- JS Module Entry (make sure path is correct) -->
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
